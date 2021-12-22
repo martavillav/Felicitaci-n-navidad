@@ -1,0 +1,180 @@
+body {
+	background-image: url("../images/fondo.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.frase1 {
+	position: relative;
+	bottom: 100px;
+	font-family: "Shizuru";
+	font-size: 80px; 
+	color: 	#8B0000; 
+	left: 300px;
+}
+.estrella {
+	position: absolute;
+	top: 100px;
+	left: 2000px;
+	animation-name: estrella;
+	animation-duration: 5s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+.melchor {
+	position: absolute;
+	left: 80px;
+	top: 600px;
+	animation-name: melchor;
+	animation-duration: 2s;
+	animation-delay: 7s;
+	animation-fill-mode: forwards;
+	z-index: 1;
+}
+
+.gaspar {
+	position: absolute;
+	left: 600px;
+	top: 600px;
+	animation-name: gaspar;
+	animation-duration: 2s;
+	animation-delay: 8s;
+	animation-fill-mode: forwards;
+	z-index: 1;
+}
+
+.baltasar {
+	position: absolute;
+	top: 600px;
+	right: 80px;
+	animation-name: baltasar;
+	animation-duration: 2s;
+	animation-delay: 9s;
+	animation-fill-mode: forwards;
+	z-index: 1;
+}
+.camello1 {
+	position: absolute;
+	top: 600px;
+	left: 150px;
+	animation-name: camellom;
+	animation-duration: 2s;
+	animation-delay: 7s;
+	animation-fill-mode: forwards;
+	z-index: -2;
+}
+.camello2 {
+	position: absolute;
+	top: 600px;
+	left:600px;
+	animation-name: camellog;
+	animation-duration: 2s;
+	animation-delay: 8s;
+	animation-fill-mode: forwards;
+	z-index: -2;
+
+}
+
+.camello3 {
+	position: absolute;
+	top: 600px;
+	right: 65px;
+	animation-name: camellob;
+	animation-duration: 2s;
+	animation-delay: 9s;
+	animation-fill-mode: forwards;
+	z-index: -2;
+	height: "100";
+	width: "100";
+
+}
+.imagen1 {
+	height: 200px;
+	width: 250px;
+	opacity: 0.45;
+}
+.imagen2 {
+	height: 200px;
+	width: 250px;
+	opacity: 0.7;
+}
+.imagen3 {
+	height: 200px;
+	width: 250px;
+	opacity: 0.9;
+}
+@keyframes estrella {
+	0% {
+		left: 2000px;
+		top: 300px;
+	}
+	100% {
+		left: 500px ;
+		top: 100px;
+	}
+}
+
+@keyframes melchor {
+	0% {
+		left: 150px;
+		top: 600px;
+	}
+	100% {
+		left: 150px;
+		top: 250px;
+	}
+}
+
+
+@keyframes gaspar {
+	0% {
+		left: 600px;
+		top: 600px;
+	}
+	100% {
+		left: 600px;
+		top: 250px;
+	}
+}
+
+@keyframes baltasar {
+	0% {top: 600px;
+		right: 120px;
+		
+	}
+	100% {
+		top: 250px;
+		right: 120px;
+	}
+}
+
+@keyframes camellom {
+	0% {top: 600px;
+		left: 180px;
+		
+	}
+	100% {
+		left: 180px;
+		top: 340px;
+	}
+}
+@keyframes camellog {
+	0% {top: 600px;
+		left:610px;
+		
+	}
+	100% {
+		left: 610px;
+		top: 340px;
+	}
+}
+@keyframes camellob {
+	0% {top: 600px;
+		right: 10px;
+	}
+	100% {
+		top: 330px;
+		right: 10px;
+	}
+}
